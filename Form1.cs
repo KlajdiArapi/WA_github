@@ -19,7 +19,12 @@ namespace WA_github
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Cresciuto con pippo e topolino");
+            if (label1.Visible)
+            {
+                label1.Visible = false;
+            }
+            else label1.Visible = true;
+            
         }
     }
 }
