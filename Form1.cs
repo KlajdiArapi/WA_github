@@ -17,10 +17,9 @@ namespace WA_github
             InitializeComponent();
         }
 
-        private void BtnClick_Click(object sender, EventArgs e)
+        private void btn1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ciao");
-            MessageBox.Show("Primo commit");
+            MessageBox.Show("git op need nerf");
         }
     }
 }

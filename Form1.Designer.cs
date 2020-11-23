@@ -30,39 +30,36 @@ namespace WA_github
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnClick = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnClick
+            // btn1
             // 
-            this.btnClick.Location = new System.Drawing.Point(123, 65);
-            this.btnClick.Name = "btnClick";
-            this.btnClick.Size = new System.Drawing.Size(75, 23);
-            this.btnClick.TabIndex = 0;
-            this.btnClick.Text = "Click";
-            this.btnClick.UseVisualStyleBackColor = true;
-            this.btnClick.Click += new System.EventHandler(this.btnClick_Click);
+            this.btn1.Location = new System.Drawing.Point(88, 26);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(75, 23);
+            this.btn1.TabIndex = 0;
+            this.btn1.Text = "Click";
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(585, 190);
-            this.Controls.Add(this.btnClick);
+            this.Controls.Add(this.btn1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
 
         }
 
-        private void btnClick_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
+
 
         #endregion
 
-        private System.Windows.Forms.Button btnClick;
+        private System.Windows.Forms.Button btn1;
     }
 }
 
