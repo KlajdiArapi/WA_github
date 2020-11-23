@@ -17,7 +17,7 @@ namespace WA_github
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnClick_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Ciao");
             MessageBox.Show("Primo commit");
