@@ -19,7 +19,7 @@ namespace WA_github
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("git op need nerf");
+            MessageBox.Show("Cresciuto con pippo e topolino");
         }
     }
 }
