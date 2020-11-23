@@ -20,6 +20,7 @@ namespace WA_github
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Ciao");
+            MessageBox.Show("Primo commit");
         }
     }
 }
